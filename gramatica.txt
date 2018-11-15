@@ -1,0 +1,5 @@
+X -> TY
+Y -> pTY | E
+T -> FZ
+Z -> mFZ | E
+F -> aXf | i
