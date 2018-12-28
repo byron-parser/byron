@@ -1,9 +1,0 @@
-S -> a | xLy
-L -> LpS | S
-
-X -> X p T | T
-T -> T m F | F
-F -> a X f | i
-
-X -> TpX | T
-T -> i
