@@ -19,6 +19,7 @@
 import sys
 
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidgetItem, QHeaderView, QErrorMessage, QMessageBox
+from PyQt5.QtGui import QIcon
 
 import interface_lexica
 import analise_lexica
@@ -30,6 +31,7 @@ class MainWindow(QMainWindow, interface_lexica.Ui_MainWindow):
         super(MainWindow, self).__init__()
         self.setupUi(self)
         self.setWindowTitle("Byron - Análise Léxica")
+        self.setWindowIcon(QIcon("byron.ico"))
         self.botaoTokenLista.clicked.connect(self.criaLista)
         self.botaoReconhece.clicked.connect(self.reconhece)
         self.botaoSLR.clicked.connect(self.abre_slr)

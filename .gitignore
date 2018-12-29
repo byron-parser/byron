@@ -12,6 +12,8 @@
 # Ignore all local history of files
 .history
 
-backup_velho/*
+dist/*
+build/*
+__pycache__/*
 
 # End of https://www.gitignore.io/api/visualstudiocode

@@ -22,7 +22,7 @@ import ast
 from importlib import reload
 
 from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox, QTableWidgetItem, QHeaderView, QFileDialog, QErrorMessage
-from PyQt5.QtGui import QTextCursor
+from PyQt5.QtGui import QTextCursor, QIcon
 
 import interface_tabular
 import analise_tabular
@@ -33,6 +33,7 @@ class MainWindow(QMainWindow, interface_tabular.Ui_MainWindow):
         super(MainWindow, self).__init__()
         self.setupUi(self)
         self.setWindowTitle("Byron - Análise Sintática Preditiva Tabular")
+        self.setWindowIcon(QIcon("byron.ico"))
         self.prontoButton.clicked.connect(self.input)
         self.testaButton.clicked.connect(self.testa)
         self.geraButton_2.clicked.connect(self.gera_codigo)
