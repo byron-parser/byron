@@ -16,8 +16,7 @@ Byron é uma ferramenta de apoio ao desenvolvimento de compiladores, com intuito
 
 Para rodar a ferramenta em um ambiente Unix ou Unix-like, deve-se rodar ./byron.py.
 A ferramenta depende de Python 3.6 ou mais recente, e o módulo PyQt5.
-Para instalar PyQt5, rode o comando
-`pip3 install pyqt5 --user`
+Para instalar PyQt5, rode o comando `pip3 install pyqt5 --user`.
 
 Em um sistema Windows, pode-se utilizar o executável encontrado na página de release.
 
