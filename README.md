@@ -15,12 +15,15 @@ Byron é uma ferramenta multiplataforma de apoio ao desenvolvimento de compilado
 ## Captura de telas
 
 * Análise léxica
+
 ![Análise léxica](https://i.imgur.com/rYXcNwZ.jpg)
 
 * Análise sintática preditiva tabular
+
 ![Análise sintática preditiva tabular](https://i.imgur.com/wNXHevh.jpg)
 
 * Análise sintática SLR
+
 ![Análise sintática SLR](https://i.imgur.com/YvRGSzQ.jpg)
 
 ## Instruções de execução
