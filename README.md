@@ -4,13 +4,24 @@
 
 ## Sobre Byron
 
-Byron é uma ferramenta de apoio ao desenvolvimento de compiladores, com intuito de uso em sala de aula, e apresenta as seguintes funcionalidades:
+Byron é uma ferramenta multiplataforma de apoio ao desenvolvimento de compiladores desenvolvida em Python 3, com intuito de uso em sala de aula, e apresenta as seguintes funcionalidades:
 
 * Análise léxica (utilizando expressões regulares)
 * Análise sintática preditiva tabular
 * Análise sintática SLR
 * Salvar e carregar informações (tokens e gramáticas)
 * Geração de módulos Python
+
+## Captura de telas
+
+* Análise léxica
+![Análise léxica](https://i.imgur.com/rYXcNwZ.jpg)
+
+* Análise sintática preditiva tabular
+![Análise sintática preditiva tabular](https://i.imgur.com/wNXHevh.jpg)
+
+* Análise sintática SLR
+![Análise sintática SLR](https://i.imgur.com/YvRGSzQ.jpg)
 
 ## Instruções de execução
 
