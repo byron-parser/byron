@@ -13,6 +13,7 @@
 .history
 
 dist/*
+dist64/*
 build/*
 __pycache__/*
 
